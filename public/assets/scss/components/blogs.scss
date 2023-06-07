@@ -1,0 +1,34 @@
+.styleul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  a {
+    color: var(--color-primary);
+  }
+  .active {
+    background-color: var(--color-primary);
+    a {
+      color: white;
+    }
+    // color: white;
+  }
+  li {
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+    @media screen and (max-width: 768px) {
+      margin: 5px;
+    }
+  }
+}
+.stylebedbath {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.feature-property .feat_property .thumb,
+.our-blog .feat_property .thumb {
+  height: 300px !important;
+}

@@ -1,0 +1,42 @@
+.styleinputsearch {
+  border: 0px;
+  width: 88%;
+  margin-left: 10px;
+  &:focus {
+    outline: none;
+  }
+}
+.styledivparent {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 5px;
+}
+.selectpicker.show-tick {
+  margin: 20px;
+}
+.needmargin {
+  margin-top: 7%;
+  @media screen and (max-width: 768px) {
+    margin-top: 0%;
+  }
+}
+.pagination {
+  .page-item.active {
+    a {
+      background-color: var(--color-primary);
+      border-color: var(--color-primary);
+      color: white;
+    }
+  }
+  .page-item {
+    a {
+      color: var(--color-primary);
+    }
+  }
+}
+.key {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
