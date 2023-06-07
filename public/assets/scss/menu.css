@@ -21,7 +21,8 @@
 }
 .header.stylehome1 {
   background-color: #0a0a0a !important;
-  position: relative;
+  position: fixed;
+  top: 0;
   z-index: 1;
 }
 .header.stylehome1.home5 {
@@ -44,7 +45,7 @@
 .header.stylehome1.home5 #search-button i {
   color: #0a0a0a;
 }
-.mobile-menu.header.stylehome1 {
+.header .stylehome1 {
   position: fixed;
   top: 0;
 }
