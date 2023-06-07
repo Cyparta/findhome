@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import HeaderMenuContent from "../common/header/HeaderMenuContent";
-import logo from "../../../public/assets/images/logo/logo.png";
+// import logo from "/findhome/assets/images/logo/logo.png";
 import Image from "next/image";
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -31,13 +31,16 @@ const Header = () => {
 
         <Link href="/">
           <a className=" float-start dn-smd">
-            <Image
-              className="logo2 "
-              src={logo}
+            <img
+              className="logo1 img-fluid w-50"
+              src="/findhome/assets/images/logo/logo.png"
               alt="header-logo.png"
-              width={100}
-              height={100}
             />
+            {/* <img
+              className="logo2 img-fluid w-50"
+              src="/findhome/assets/images/logo/logo.png"
+              alt="header-logo.png"
+            /> */}
           </a>
         </Link>
         {/* site logo brand */}

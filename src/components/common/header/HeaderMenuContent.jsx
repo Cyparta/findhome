@@ -123,7 +123,7 @@ const HeaderMenuContent = ({ float = "" }) => {
       data-menu-style="horizontal"
     >
       <li className="dropitem">
-        <a
+        <Link
           href="/"
           className={
             home.some((page) => page.routerPath === route.pathname)
@@ -131,24 +131,24 @@ const HeaderMenuContent = ({ float = "" }) => {
               : undefined
           }
         >
-          <span className="title">{main.home[lang]}</span>
+          <span className="title mx-2">{main.home[lang]}</span>
           {/* <span className="arrow"></span> */}
-        </a>
+        </Link>
         {/* <!-- Level Two--> */}
       </li>
       {/* End .dropitem */}
       {listing.map((ele, index) => {
         return (
           <li className="dropitem" key={index}>
-            <a
+            <Link
               href={ele.routerPath}
               className={
                 ele.routerPath === route.pathname ? "ui-active" : undefined
               }
             >
-              <span className="title">{ele.title}</span>
+              <span className="title  mx-2">{ele.title}</span>
               {/* <span className="arrow"></span> */}
-            </a>
+            </Link>
 
             {/* <!-- Level Two--> */}
           </li>
@@ -169,7 +169,7 @@ const HeaderMenuContent = ({ float = "" }) => {
           <a
             className={
               pages[0].pathname === pages[0].routerPath
-                ? "ui-active"
+                ? "ui-active  mx-2"
                 : undefined
             }
           >
@@ -185,7 +185,7 @@ const HeaderMenuContent = ({ float = "" }) => {
       {/* End .dropitem */}
 
       <li className="dropitem">
-        <a
+        <Link
           href="/blog-list-3"
           className={
             blog.some(
@@ -193,20 +193,20 @@ const HeaderMenuContent = ({ float = "" }) => {
                 page.routerPath === route.pathname ||
                 page.routerPath + "/[id]" === route.pathname
             )
-              ? "ui-active"
+              ? "ui-active  mx-2"
               : undefined
           }
         >
           <span className="title">{main.blog1[lang]}</span>
           {/* <span className="arrow"></span> */}
-        </a>
+        </Link>
       </li>
       {/* End .dropitem */}
 
       <li className="last">
         <Link href="/contact">
           <a
-            className={route.pathname === "/contact" ? "ui-active" : undefined}
+            className={route.pathname === "/contact" ? "ui-active  mx-2" : undefined}
           >
             {main.contact[lang]}
           </a>

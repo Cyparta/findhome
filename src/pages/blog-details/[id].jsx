@@ -23,7 +23,7 @@ const BlogDetailsDynamic = () => {
   const id = router.query.id;
   const lang = useSelector((state) => state.lang.value.lang);
 
-  const [blog, setBlogItem] = useState();
+  const [blog, setBlogItem] = useState(blogs.find((ele) => ele.id[lang] == id));
   useEffect(() => {
     setBlogItem(blogs.find((ele) => ele.id[lang] == id));
   }, [id]);

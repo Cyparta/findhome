@@ -125,7 +125,7 @@ const FeaturedItem = () => {
         className={`${
           isGridOrList ? "col-12 feature-list" : "col-md-6 col-lg-6"
         } `}
-        key={item.id && item.id[lang]}
+        key={item.id[lang] && item.id[lang]}
       >
         <div
           className={`feat_property home7 style4 ${

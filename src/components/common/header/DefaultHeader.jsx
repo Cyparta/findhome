@@ -29,12 +29,12 @@ const Header = () => {
           <a className="navbar_brand float-start dn-smd">
             <img
               className="logo1 img-fluid w-50"
-              src="/assets/images/logo/logo.png"
+              src="/findhome/assets/images/logo/logo.png"
               alt="header-logo.png"
             />
             <img
               className="logo2 img-fluid w-50"
-              src="/assets/images/logo/logo.png"
+              src="/findhome/assets/images/logo/logo.png"
               alt="header-logo.png"
             />
           </a>

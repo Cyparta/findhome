@@ -2,8 +2,8 @@ module.exports.blogs = [
   {
     id: { en: "1", ar: "1" },
     img: {
-      en: "/assets/images/home/business2externction.jpg",
-      ar: "/assets/images/home/business2externction.jpg",
+      en: "/findhome/assets/images/home/business2externction.jpg",
+      ar: "/findhome/assets/images/home/business2externction.jpg",
     },
     postMeta: { en: "Contracting", ar: "المقاولات" },
     title: {
@@ -11,8 +11,8 @@ module.exports.blogs = [
       ar: ` المقاولات`,
     },
     posterAvatar: {
-      en: "/assets/images/property/pposter1.png",
-      ar: "/assets/images/property/pposter1.png",
+      en: "/findhome/assets/images/property/pposter1.png",
+      ar: "/findhome/assets/images/property/pposter1.png",
     },
     posterName: { en: "Ali Tufan", ar: "علي توفان" },
     postedDate: { en: "7 August 2022", ar: "7 August 2022" },
@@ -75,8 +75,8 @@ module.exports.blogs = [
   {
     id: { en: "2", ar: "2" },
     img: {
-      en: "/assets/images/home/building2.jpg",
-      ar: "/assets/images/home/building2.jpg",
+      en: "/findhome/assets/images/home/building2.jpg",
+      ar: "/findhome/assets/images/home/building2.jpg",
     },
     postMeta: { en: "business", ar: "عمل" },
     title: {
@@ -84,8 +84,8 @@ module.exports.blogs = [
       ar: `العقارات`,
     },
     posterAvatar: {
-      en: "/assets/images/property/pposter1.png",
-      ar: "/assets/images/property/pposter1.png",
+      en: "/findhome/assets/images/property/pposter1.png",
+      ar: "/findhome/assets/images/property/pposter1.png",
     },
     posterName: { en: "Ali Tufan", ar: "علي توفان" },
     postedDate: { en: "7 August 2022", ar: "7 August 2022" },
@@ -187,8 +187,8 @@ Complete the deal.
   {
     id: { en: "3", ar: "3" },
     img: {
-      en: "/assets/images/home/couchvillage7.jpg",
-      ar: "/assets/images/home/couchvillage7.jpg",
+      en: "/findhome/assets/images/home/couchvillage7.jpg",
+      ar: "/findhome/assets/images/home/couchvillage7.jpg",
     },
     postMeta: { en: "business", ar: "عمل" },
     title: {
@@ -196,8 +196,8 @@ Complete the deal.
       ar: `نتميز بديكورات جديده`,
     },
     posterAvatar: {
-      en: "/assets/images/property/pposter1.png",
-      ar: "/assets/images/property/pposter1.png",
+      en: "/findhome/assets/images/property/pposter1.png",
+      ar: "/findhome/assets/images/property/pposter1.png",
     },
     posterName: { en: "Ali Tufan", ar: "علي توفان" },
     postedDate: { en: "7 August 2022", ar: "7 August 2022" },
