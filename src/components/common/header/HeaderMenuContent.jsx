@@ -131,7 +131,7 @@ const HeaderMenuContent = ({ float = "" }) => {
               : undefined
           }
         >
-          <span className="title mx-2">{main.home[lang]}</span>
+          <span className="title mx-2 text-capitalize">{main.home[lang]}</span>
           {/* <span className="arrow"></span> */}
         </Link>
         {/* <!-- Level Two--> */}
@@ -143,10 +143,10 @@ const HeaderMenuContent = ({ float = "" }) => {
             <Link
               href={ele.routerPath}
               className={
-                ele.routerPath === route.pathname ? "ui-active" : undefined
+                ele.routerPath === route.pathname ? "ui-active " : undefined
               }
             >
-              <span className="title  mx-2">{ele.title}</span>
+              <span className="title  mx-2 text-capitalize">{ele.title}</span>
               {/* <span className="arrow"></span> */}
             </Link>
 
@@ -169,7 +169,7 @@ const HeaderMenuContent = ({ float = "" }) => {
           <a
             className={
               pages[0].pathname === pages[0].routerPath
-                ? "ui-active  mx-2"
+                ? "ui-active  mx-2 text-capitalize"
                 : undefined
             }
           >
@@ -193,11 +193,11 @@ const HeaderMenuContent = ({ float = "" }) => {
                 page.routerPath === route.pathname ||
                 page.routerPath + "/[id]" === route.pathname
             )
-              ? "ui-active  mx-2"
+              ? "ui-active  mx-2 text-capitalize"
               : undefined
           }
         >
-          <span className="title">{main.blog1[lang]}</span>
+          <span className="title text-capitalize">{main.blog1[lang]}</span>
           {/* <span className="arrow"></span> */}
         </Link>
       </li>
@@ -206,7 +206,11 @@ const HeaderMenuContent = ({ float = "" }) => {
       <li className="last">
         <Link href="/contact">
           <a
-            className={route.pathname === "/contact" ? "ui-active  mx-2" : undefined}
+            className={
+              route.pathname === "/contact"
+                ? "ui-active  mx-2 text-capitalize"
+                : undefined
+            }
           >
             {main.contact[lang]}
           </a>

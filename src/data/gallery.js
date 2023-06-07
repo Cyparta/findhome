@@ -2,8 +2,8 @@ module.exports.gallerys = [
   {
     id: { en: 1, ar: 1 },
     img: {
-      en: "/assets/images/home/realtobuy.jpeg",
-      ar: "/assets/images/home/realtobuy.jpeg",
+      en: "/findhome/assets/images/home/realtobuy.jpeg",
+      ar: "/findhome/assets/images/home/realtobuy.jpeg",
     },
     title: {
       en: "Complementary Home Home - Northern Expansions Unit on the first floor",
@@ -67,8 +67,8 @@ module.exports.gallerys = [
   {
     id: { en: 2, ar: 2 },
     img: {
-      en: "/assets/images/home/realimage.jpeg",
-      ar: "/assets/images/home/realimage.jpeg",
+      en: "/findhome/assets/images/home/realimage.jpeg",
+      ar: "/findhome/assets/images/home/realimage.jpeg",
     },
     title: {
       en: "Complementary Homeland - Northern Expansions, Ground Unit, Genena",
@@ -132,8 +132,8 @@ module.exports.gallerys = [
   {
     id: { en: 3, ar: 3 },
     img: {
-      en: "/assets/images/home/realimage.jpeg",
-      ar: "/assets/images/home/realimage.jpeg",
+      en: "/findhome/assets/images/home/realimage.jpeg",
+      ar: "/findhome/assets/images/home/realimage.jpeg",
     },
     title: {
       en: "Complementary Homeland - Northern Expansions, Ground Unit, Genena",

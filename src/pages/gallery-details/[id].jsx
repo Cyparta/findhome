@@ -39,7 +39,7 @@ function GalleryDetails() {
           <div className="container">
             <div className="row needmargin">
               <div className="col-lg-6 col-md-6 col-sm-12">
-                <Image src={gallery?.img[lang]} alt="imagegallery" />
+                <img src={gallery?.img[lang]} alt="imagegallery" />
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <h2>{gallery?.title[lang]}</h2>
