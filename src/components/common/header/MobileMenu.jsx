@@ -19,7 +19,7 @@ const MobileMenu = () => {
           >
             <img
               className="nav_logo_img img-fluid  h-100 d-flex"
-              src="/assets/images/logo/logo.png"
+              src="/findhome/assets/images/logo/logo.png"
               alt="header-logo2.png"
             />
           </div>

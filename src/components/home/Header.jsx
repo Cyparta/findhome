@@ -30,17 +30,17 @@ const Header = () => {
         {/* <!-- Ace Responsive Menu --> */}
 
         <Link href="/">
-          <a className=" float-start dn-smd">
+          <a className="navbar_brand float-start dn-smd m-0">
             <img
               className="logo1 img-fluid w-50"
               src="/findhome/assets/images/logo/logo.png"
               alt="header-logo.png"
             />
-            {/* <img
+            <img
               className="logo2 img-fluid w-50"
               src="/findhome/assets/images/logo/logo.png"
               alt="header-logo.png"
-            /> */}
+            />
           </a>
         </Link>
         {/* site logo brand */}

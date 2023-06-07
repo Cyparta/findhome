@@ -21209,7 +21209,7 @@ button.gm-ui-hover-effect:focus {
 }
 .styleheader {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .YoutubeVideo:hover iframe,
@@ -21246,4 +21246,7 @@ button.gm-ui-hover-effect:focus {
   height: 100%;
   display: block;
   background-color: white;
+}
+span.title {
+  cursor: pointer;
 }
