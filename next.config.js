@@ -1,8 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false,
-  swcMinify: false,
   output: "export",
+  basePath: "",
+  // images: {
+  //   remotePatterns: [
+  //     {
+  //       domains: ["../../../public"],
+  //     },
+  //   ],
+  // },
 };
 
 module.exports = nextConfig;

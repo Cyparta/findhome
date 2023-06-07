@@ -10,6 +10,7 @@ import { useSelector } from "react-redux";
 import { FaBath, FaBed } from "react-icons/fa";
 import { useEffect } from "react";
 import { useState } from "react";
+import Image from "next/image";
 
 function GalleryDetails() {
   const router = useRouter();
@@ -38,7 +39,7 @@ function GalleryDetails() {
           <div className="container">
             <div className="row needmargin">
               <div className="col-lg-6 col-md-6 col-sm-12">
-                <img src={gallery?.img[lang]} alt="imagegallery" />
+                <Image src={gallery?.img[lang]} alt="imagegallery" />
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <h2>{gallery?.title[lang]}</h2>

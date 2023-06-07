@@ -2,7 +2,8 @@ import Link from "next/link";
 import { useSelector } from "react-redux";
 import Slider from "react-slick";
 import properties from "../../data/properties";
-
+import Image from "next/image";
+// import publicImage from "/../../../public/assets/images/home";
 const FeaturedProperties = () => {
   const lang = useSelector((state) => state.lang.value.lang);
   const month = { en: "/mo", ar: "/شهر" };
